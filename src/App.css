@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  color: rgb(30, 30, 143) ;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+h1{
+  color: green;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn1{
+  background-color: green;
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 12px;
+  pointer-events: visiblePainted;
 }
